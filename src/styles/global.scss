@@ -1,0 +1,29 @@
+
+
+:root {
+  // COLORS
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --desaturated-dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+
+  font-size: 13px;
+  font-weight: 500;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  height: 100vh;
+  background-color: var(--light-grayish-blue);
+}
